@@ -62,7 +62,7 @@ function App() {
             data={data}
             keys={["value"]}
             indexBy="id"
-            margin={{ top: 70, right: 10, bottom: 40, left: 40 }}
+            margin={{ top: 70, right: 25, bottom: 50, left: 40 }}
             // colors={{ scheme: 'nivo' }}
             borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
             labelTextColor={{ from: 'color', modifiers: [['darker', 1.6]] }} />
@@ -182,7 +182,7 @@ function App() {
             keys={["value"]}
             colors={{ scheme: 'paired' }}
             indexBy="id"
-            margin={{ top: 70, right: 10, bottom: 40, left: 40 }}
+            margin={{ top: 70, right: 25, bottom: 50, left: 40 }}
             // colors={{ scheme: 'nivo' }}
             borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
             labelTextColor={{ from: 'color', modifiers: [['darker', 1.6]] }} />
